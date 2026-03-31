@@ -1,7 +1,24 @@
-# Clash in Space 🚀
+<h1 align="center">🚀 Clash in Space</h1>
 
-**Clash in Space** is a fast-paced arcade space shooter built with **Pygame-CE**.
-Pilot your spaceship through space, destroy incoming meteors, and survive as long as possible.
+<p align="center">
+A fast-paced arcade space shooter built with <b>Pygame-CE</b>.
+<br>
+Destroy meteors, survive as long as possible, and play in your browser or on desktop.
+</p>
+
+![Game](https://img.shields.io/badge/Genre-Arcade%20Shooter-red)
+![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20Windows-blue)
+[![Play Online](https://img.shields.io/badge/Play%20Online-GitHub%20Pages-brightgreen)](https://shivamkr12.github.io/Clash-in-Space)
+[![Windows Build](https://github.com/ShivamKR12/Clash-in-Space/actions/workflows/build.yml/badge.svg)](https://github.com/ShivamKR12/Clash-in-Space/actions/workflows/build.yml)
+[![Web Build (pygbag)](https://github.com/ShivamKR12/Clash-in-Space/actions/workflows/pygbag.yml/badge.svg)](https://github.com/ShivamKR12/Clash-in-Space/actions/workflows/pygbag.yml)
+[![Deploy to GitHub Pages](https://github.com/ShivamKR12/Clash-in-Space/actions/workflows/pygbag.yml/badge.svg)](https://shivamkr12.github.io/Clash-in-Space)
+![Stars](https://img.shields.io/github/stars/ShivamKR12/Clash-in-Space)
+![Forks](https://img.shields.io/github/forks/ShivamKR12/Clash-in-Space)
+![Issues](https://img.shields.io/github/issues/ShivamKR12/Clash-in-Space)
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Pygame](https://img.shields.io/badge/Pygame-CE-green)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-pygbag-orange)
+![License](https://img.shields.io/github/license/ShivamKR12/Clash-in-Space)
 
 The game is available in **two versions**:
 
