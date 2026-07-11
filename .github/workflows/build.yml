@@ -78,6 +78,6 @@ jobs:
           tag_name: v${{ github.run_number }}
           name: Clash in Space v${{ github.run_number }}
           files: |
-            artifacts/clash-in-space-windows-latest/clash-in-space-windows.zip
-            artifacts/clash-in-space-ubuntu-latest/clash-in-space-linux.tar.gz
-            artifacts/clash-in-space-macos-latest/clash-in-space-macos.zip
+            artifacts/clash-in-space-Windows/clash-in-space-windows.zip
+            artifacts/clash-in-space-Linux/clash-in-space-linux.tar.gz
+            artifacts/clash-in-space-macOS/clash-in-space-macos.zip
