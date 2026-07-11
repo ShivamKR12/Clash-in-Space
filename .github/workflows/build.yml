@@ -51,7 +51,7 @@ jobs:
 
       - name: Archive macOS application
         if: runner.os == 'macOS'
-        run: zip -r clash-in-space-macos.zip dist/clash-in-space.app
+        run: zip -j clash-in-space-macos.zip dist/clash-in-space
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
