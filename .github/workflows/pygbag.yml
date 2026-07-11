@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'main.py'
+      - '.github/workflows/pygbag.yml'
   workflow_dispatch:
 
 permissions:
