@@ -61,3 +61,23 @@ jobs:
           path: |
             clash-in-space-*.zip
             clash-in-space-*.tar.gz
+
+  release:
+    name: Create GitHub Release
+    needs: build-desktop
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download all build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+
+      - name: Create Release and upload files
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ github.run_number }}
+          name: Clash in Space v${{ github.run_number }}
+          files: |
+            artifacts/clash-in-space-windows-latest/clash-in-space-windows.zip
+            artifacts/clash-in-space-ubuntu-latest/clash-in-space-linux.tar.gz
+            artifacts/clash-in-space-macos-latest/clash-in-space-macos.zip
