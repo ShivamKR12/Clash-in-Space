@@ -3,8 +3,8 @@ name: Build Desktop Executables
 on:
   push:
     paths:
-      - 'game.py'
-      - 'game.spec'
+      - 'main.py'
+      - 'Clash-in-Space.spec'
       - '.github/workflows/build.yml'
   workflow_dispatch:
 
@@ -32,7 +32,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.13'
 
       - name: Install Python dependencies
         run: |
@@ -40,7 +40,7 @@ jobs:
           pip install pyinstaller pygame-ce
 
       - name: Build with PyInstaller
-        run: pyinstaller game.spec
+        run: pyinstaller Clash-in-Space.spec
 
       - name: Archive Windows executable
         if: runner.os == 'Windows'
